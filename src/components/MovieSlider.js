@@ -65,7 +65,7 @@ export default React.memo (function MovieSlider ({data, title}){
         .slider{
             display: flex;
             width: max-content;
-            gap: 0.6rem;
+            gap: 2rem;
             transform: translateX(0px);
             transition: 1s ease-in-out;
             margin-left: 5px;

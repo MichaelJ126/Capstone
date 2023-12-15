@@ -37,16 +37,16 @@ const LoginPage = () => {
                         <div className='title'>
                             <h1>login</h1>
                         </div>
-                        <div className='container'>
-                            <input type="text" placeholder='    Email'
-                                onChange={(e) => setEmail(e.target.value)}
-                                value={ email }
+                        <div className = 'container' >
+                            <input type ="text" placeholder = '    Email'
+                                onChange = {(e) => setEmail( e.target.value)}
+                                value = { email }
                             />
-                            <input type='password' placeholder='    Password'
-                                onChange={(e) => setPassword(e.target.value)}
-                                value={ password }
+                            <input type ='password' placeholder = '    Password'
+                                onChange = {(e) => setPassword ( e.target.value)}
+                                value ={ password }
                             />
-                            <button onClick={ handleLogin}>Login</button>
+                            <button onClick={ handleLogin }>Login</button>
                         </div>
                     </div>
                 </div>

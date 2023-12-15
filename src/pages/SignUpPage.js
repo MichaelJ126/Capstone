@@ -64,9 +64,6 @@ const SignUpPage = () => {
                                 <button onClick={()=>setShowPassword(true)}>Get Started</button>
                             ): <button onClick={handleSignIn}>Sign Up</button>
                         }
-                        
-                       
-                        
                     </div>
                 </div>
             </div>
