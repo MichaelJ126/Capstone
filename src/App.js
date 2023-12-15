@@ -6,6 +6,8 @@ import MassMovies from './pages/MassMovies';
 import MoviePage from './pages/MoviePage';
 import TVShow from './pages/TVShow';
 import Player from './pages/Player';
+// import { Watchedlist } from './components/Watchlist';
+
 // import BackgroundImage from './components/BackgroundImage';
 import Header from './components/Header';
 

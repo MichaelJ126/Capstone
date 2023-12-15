@@ -11,8 +11,8 @@ const TopNav = ({ isScrolled }) => {
     const navlink = [
         { name: 'Home', link: '/' },
         { name: 'Tv Show', link: '/tv' },
-        { name: 'My List', link: '/mylist' },
         { name: 'Movies', link: '/movies' },
+        { name: 'My List', link: '/mylist' },
     ];
 
     const navigate = useNavigate()
