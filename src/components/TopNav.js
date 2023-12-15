@@ -27,7 +27,7 @@ const TopNav = ({ isScrolled }) => {
                 <div className='leftSide'>
                     <div className='logo'>
                         <img 
-                            src='https://res.cloudinary.com/ehizeex-shop/image/upload/v1668265433/NetflixApp/2560px-Netflix_2015_logo.svg_rbicwl_knwp6f.png'
+                            src='MassMovies.png'
                             alt='logo'
                         />
                     </div>
@@ -83,7 +83,11 @@ const NavContainer = styled.div`
         }
         img{
             width: 10rem;
+            margin-top: 20%;
             height: 2rem;
+            height: 100%;
+            width: 100%;
+            
         }
     }
     .links{
@@ -104,7 +108,7 @@ const NavContainer = styled.div`
     gap: 1rem;
     margin-right: 1rem;
     button{
-        background-color: orange;
+        background-color: #B88400;
         border: none;
         cursor: pointer;
         border-radius: 50%;

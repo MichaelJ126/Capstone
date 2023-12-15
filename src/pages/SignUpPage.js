@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 
 const SignUpPage = () => {
 
-    const [ showPassword, setShowPassword ] = useState(false);
+    const [showPassword, setShowPassword ] = useState(false);
     const [formValues, setFormValues] = useState({email: "", password:""})
 
     const navigate = useNavigate()
@@ -39,7 +39,7 @@ const SignUpPage = () => {
                     <div className='text'>
                         <h1>Unlimited movies, Tv shows and more</h1>
                         <h4>watch anywhere, Cancel Anythime</h4>
-                        <h6>Ready to watch? Enter your email to create or restart membership</h6>
+                        {/* <h6>Ready to watch? Enter your email to create or restart membership</h6> */}
                     </div>
                     <div className='form'>
                         {
@@ -80,7 +80,7 @@ position: relative;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.79);
+    background-color: rgba(0,0,0,0.60);
     height: 100vh;
     width: 100vw;
     grid-template-columns: 15vh 85vh;
@@ -99,10 +99,10 @@ position: relative;
       color: white;
     }
     h1{
-        padding: 0 25rem;
+        padding: 5rem;
     }
     h4{
-        margin-top: -1.5rem;
+        margin-top: -5.0rem;
     }
     h6{
         margin-top: -1.5rem;
@@ -115,15 +115,21 @@ position: relative;
             color: black;
             padding: 1.5rem;
             font-size: 1.2rem;
-            width: 45rem;
+            margin-top: 50%;
+            margin-left: 20%;
+            border-radius: 0.4rem;
+            border: 40rem;
             &:focus{
                 outline: none;
             }
         }
         button{
             padding: 0.5rem 1rem;
-            background-color: orange;
+            background-color: #B88400;
             border: none;
+            border-radius: 0.4rem;
+            margin-top: 100%;
+            margin-left: 5%;
             cursor: pointer;
             color: white;
             font-size: 1.05rem;

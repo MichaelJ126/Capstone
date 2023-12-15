@@ -4,8 +4,7 @@ import styled from 'styled-components'
 const BackgroundImage = () => {
     return (
         <BackgroundContainer>
-        <img src='https://res.cloudinary.com/ehizeex-shop/image/upload/v1668265236/NetflixApp/netflix-reuse-official_ntcjl2_wtrhhh.jpg'/>
-        alt='no internet connection'
+        <img src='https://themotionpictureblog.files.wordpress.com/2018/01/best-movie-fight-scenes.jpg'/>
       
        </BackgroundContainer>  
     )

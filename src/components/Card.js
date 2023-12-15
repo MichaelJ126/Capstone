@@ -75,7 +75,7 @@ width: 230px;
 height: 100%;
 cursor: pointer;
 position: relative;
-background-color: orange;
+background-color: #B88400;
 img{
     border-radius: 0.2rem;
     width: 100%;

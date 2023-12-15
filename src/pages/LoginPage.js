@@ -10,8 +10,8 @@ import { firebaseAuth } from '../utils/firebase-config';
 
 const LoginPage = () => {
 
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [  email, setEmail] = useState("");
+    const [  password, setPassword] = useState("");
 
         const navigate = useNavigate()
 
@@ -38,13 +38,13 @@ const LoginPage = () => {
                             <h1>login</h1>
                         </div>
                         <div className='container'>
-                            <input type="text" placeholder='Email'
+                            <input type="text" placeholder='    Email'
                                 onChange={(e) => setEmail(e.target.value)}
-                                value={email}
+                                value={ email }
                             />
-                            <input type='password' placeholder='Password'
+                            <input type='password' placeholder='    Password'
                                 onChange={(e) => setPassword(e.target.value)}
-                                value={password}
+                                value={ password }
                             />
                             <button onClick={ handleLogin}>Login</button>
                         </div>
@@ -70,7 +70,7 @@ position: relative;
         align-items: center;
         justify-content: center;
         gap: 2rem;
-        height: 85vh;
+        /* height: 85vh; */
     }
     .form{
         display: flex;
@@ -78,8 +78,8 @@ position: relative;
         align-items: center;
         justify-content: center;
         gap: 2rem;
-        background-color: rgba(0,0,0,0.83);
-        height: 70vh;
+        background-color: rgba(0,0,0,0.70);
+        height: 55vh;
         padding: 2rem;
         color: white;
         border-radius: 0.4rem;
@@ -90,6 +90,7 @@ position: relative;
             gap: 2rem;
             input{
                 border-radius: 0.4rem;
+                border: none;
                 padding: 0.5remm 1rem;
                 width: 25rem;
                 height: 2.4rem;
@@ -97,7 +98,7 @@ position: relative;
             }
             button{
                 padding: 0.5rem;
-                background-color: gold;
+                background-color: #B88400;
                 border: none;
                 cursor: pointer;
                 border-radius: 0.4rem;

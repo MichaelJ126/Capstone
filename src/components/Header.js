@@ -29,21 +29,22 @@ const HeaderContainer = styled.div`
             height: 3rem;
             cursor: pointer;
             margin-top: 5%;
-            height: 80%;
-            width: 80%;
+            height: 100%;
+            width: 100%;
             
         }
     }
     button{
         padding: 0.5rem 1rem;
-        background-color :orange;
+        background-color :#B88400;
         border: none;
         cursor: pointer;
         color: white;
         border-radius: 0.2rem;
         font-weight: bolder;
         font-size: 1.05rem;
-        margin-top: 1%;
+        margin-top: -4rem;
+        margin-right: 1rem;
 
     }
 
