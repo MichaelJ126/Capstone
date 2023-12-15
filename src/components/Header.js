@@ -28,18 +28,22 @@ const HeaderContainer = styled.div`
         img{
             height: 3rem;
             cursor: pointer;
-            margin-top: 3%;
+            margin-top: 5%;
+            height: 80%;
+            width: 80%;
+            
         }
     }
     button{
         padding: 0.5rem 1rem;
-        background-color :#C00000;
+        background-color :orange;
         border: none;
         cursor: pointer;
         color: white;
         border-radius: 0.2rem;
         font-weight: bolder;
         font-size: 1.05rem;
+        margin-top: 1%;
 
     }
 

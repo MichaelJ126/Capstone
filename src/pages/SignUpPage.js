@@ -122,7 +122,7 @@ position: relative;
         }
         button{
             padding: 0.5rem 1rem;
-            background-color: gold;
+            background-color: orange;
             border: none;
             cursor: pointer;
             color: white;

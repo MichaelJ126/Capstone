@@ -51,9 +51,9 @@ const MassMovies = () => {
                 />
                 <div className='container'>
                     <div className='title'>
-                        <h1>Superman</h1>
+                        <h1>The Avengers</h1>
                         <p>
-                            Superman was the ish
+                           
                         </p>
                     </div>
                     <div className="buttons">

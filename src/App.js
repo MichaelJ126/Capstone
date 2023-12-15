@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
+import LoginPage from './pages/LoginPage';
 import MassMovies from './pages/MassMovies';
 import MoviePage from './pages/MoviePage';
 import TVShow from './pages/TVShow';
@@ -14,8 +14,8 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-          <Route exact path='/login' element={<LoginPage/>}/>
           <Route exact path='/signup' element={<SignUpPage/>}/>
+          <Route exact path='/login' element={<LoginPage/>}/>
           <Route exact path='/Player' element={<Player/>}/>
           <Route exact path='/tv' element={<TVShow/>}/>
           <Route exact path='/' element={<MassMovies/>}/>
